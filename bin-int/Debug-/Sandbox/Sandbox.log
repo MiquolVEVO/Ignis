@@ -1,3 +1,5 @@
-﻿  Application.cpp
-m:\ignis\sandbox\src\application.cpp(9): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Sandbox.vcxproj -> M:\Ignis\bin\Debug-\Sandbox\Sandbox.exe
+﻿  SandboxApp.cpp
+d:\ignis\sandbox\src\sandboxapp.cpp(18): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\ignis\sandbox\src\sandboxapp.cpp(19): error C2039: 'Print': is not a member of 'Ignis'
+  d:\ignis\ignis\src\ignis\application.h(5): note: see declaration of 'Ignis'
+d:\ignis\sandbox\src\sandboxapp.cpp(19): error C3861: 'Print': identifier not found

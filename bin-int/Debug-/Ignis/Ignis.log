@@ -1,3 +1,10 @@
-﻿  Test.cpp
-     Creating library M:\Ignis\bin\Debug-\Ignis\Ignis.lib and object M:\Ignis\bin\Debug-\Ignis\Ignis.exp
-  Ignis.vcxproj -> M:\Ignis\bin\Debug-\Ignis\Ignis.dll
+﻿  Application.cpp
+d:\ignis\ignis\src\ignis\application.cpp(6): warning C4273: 'Ignis::Application::Application': inconsistent dll linkage
+  d:\ignis\ignis\src\ignis\application.h(10): note: see previous definition of '{ctor}'
+d:\ignis\ignis\src\ignis\application.cpp(11): warning C4273: 'Ignis::Application::~Application': inconsistent dll linkage
+  d:\ignis\ignis\src\ignis\application.h(11): note: see previous definition of '{dtor}'
+d:\ignis\ignis\src\ignis\application.cpp(15): warning C4273: 'Ignis::Application::Run': inconsistent dll linkage
+  d:\ignis\ignis\src\ignis\application.h(13): note: see previous definition of 'Run'
+     Creating library D:\Ignis\bin\Debug-\Ignis\Ignis.lib and object D:\Ignis\bin\Debug-\Ignis\Ignis.exp
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) const Ignis::Application::`vftable'" (__imp_??_7Application@Ignis@@6B@) referenced in function "public: __cdecl Ignis::Application::Application(void)" (??0Application@Ignis@@QEAA@XZ)
+D:\Ignis\bin\Debug-\Ignis\Ignis.dll : fatal error LNK1120: 1 unresolved externals
