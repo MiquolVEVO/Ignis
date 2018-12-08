@@ -12,9 +12,10 @@ public:
 	{
 		
 	}
+	
 };
 
-void main() 
+Ignis::Application* Ignis::CreateApplication()
 {
-	Ignis::Print();
+	return new Sandbox();
 }
