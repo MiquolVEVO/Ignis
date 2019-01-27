@@ -1,9 +1,0 @@
-﻿  Log.cpp
-m:\ignis\ignis\src\ignis\log.h(18): warning C4251: 'Ignis::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Ignis::Log'
-  m:\ignis\ignis\vendor\spdlog\include\spdlog\logger.h(163): note: see declaration of 'std::shared_ptr<spdlog::logger>'
-m:\ignis\ignis\src\ignis\log.h(19): warning C4251: 'Ignis::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Ignis::Log'
-  m:\ignis\ignis\vendor\spdlog\include\spdlog\logger.h(163): note: see declaration of 'std::shared_ptr<spdlog::logger>'
-  Application.cpp
-  Generating Code...
-     Creating library M:\Ignis\bin\Debug-\Ignis\Ignis.lib and object M:\Ignis\bin\Debug-\Ignis\Ignis.exp
-  Ignis.vcxproj -> M:\Ignis\bin\Debug-\Ignis\Ignis.dll
